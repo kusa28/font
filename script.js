@@ -18,6 +18,6 @@ convertButton.addEventListener("click", function() {
   const font = fonts[Math.floor(Math.random() * fonts.length)];
 
   // 出力エリアのスタイルを設定する
-  output.style.fontFamily = font;
+  output.style.fontFamily = DotGothic16;
   output.innerHTML = text;
 });
