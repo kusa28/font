@@ -14,10 +14,10 @@ convertButton.addEventListener("click", function() {
   const text = input.value;
 
   // ランダムにフォントを選択する
-  const fonts = ["Roboto", "Montserrat"];
+  const fonts = ["DotGothic16"];
   const font = fonts[Math.floor(Math.random() * fonts.length)];
 
   // 出力エリアのスタイルを設定する
-  output.style.fontFamily = DotGothic16;
+  output.style.fontFamily = font;
   output.innerHTML = text;
 });
